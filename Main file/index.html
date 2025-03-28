@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wakana Beauty Template></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body id="home">
+    <!--Header section--><div class="static bg-pink-400 text-white flex flex-row ">
+        <header class="flex items-center justify-between p-4 space-x-96">
+            <h1 class="mr-36 ">WANAKA</h1>
+            <nav>
+                
+                <li class="  flex space-x-4 ml-80 pl-56">
+                    <h3  class="hover:underline "><a href="#home">Home</a></h3>
+                    <h3 class="hover:underline "><a href="#about">About</a></h3>
+                    <h3 class="hover:underline "><a href="#gallery">Gallery</a></h3>
+                    <h3 class="hover:underline ">Spa</h3>
+                    <h3 class="hover:underline "> <a href="#contact">Contact</a></h3>
+                </li>
+            </nav>
+        </header>
+    </div>
+
+    
+    <!--banner section-->
+    <div class=" relative bg-center h-screen w-full bg-no-repeat bg-cover" style="background-image: url(pictures/wakanaka\ banner.jpg);">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="relative text-white  text-center flex flex-col justify-center items-center h-full">
+            <h1 class="md:text-6xl lg:w-6xl">WAKANAKA</h1>
+        
+             <p class="md:text-3xl lg:text-3xl">Academy .Beauty . Spa</p>
+        </div>
+    </div>
+
+    <!--About Us Section-->
+    <div id="about"  class="flex m-20 ">
+        <!--right section-->
+        <div class=" space-y-6  flex flex-col justify-center items bg-center p-4 max-w-md">
+            <h1 class="text-3xl text-pink-500">About Us </h1>
+            <p class="text-black">Lorem ipsum dolor 
+                sit amet consectetur adipisicing elit. <br>Praesentium, quasi!
+            </p>
+            <button class="bg-pink-400 text-white rounded-md transition-transform duration-300 hover:scale-110 active:scale-90 hover:ease-in-out p-2">Learn More</button>
+        </div>
+        <!--left section-->
+        <div class="w-2/3 h-[400px] ml-56">
+            <img src="pictures/about us.jpg" alt="ABOUT US PICTURE" class="w-full h-full object-cover">
+        </div>
+
+    </div>
+    
+    <!--Our space section-->
+    <div id="Academy" class="relative bg-center h-screen w-full bg-cover" style="background-image: url(pictures/space.jpg);">
+    
+           
+            <div class="relative text-center flex flex-col justify-center items-center h-full space-y-2 text-white">
+                <h1 class="font-semibold text-3xl">
+                    Experirnce Our Space
+                </h1>
+                
+                <p class="font-semibold text-2xl">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+                <button class="text-white bg-pink-400 p-2 rounded-md transition-transform duration-300 hover:scale-110 active:scale-90 hover:ease-in-out">B.Academy</button>
+            </div>
+
+               
+                
+        
+    </div>
+
+    <!--Gallery-->
+    
+    <div id="gallery" class="space-y-16">
+        <hr>
+       <div class="flex flex-row justify-center items-center flex-wrap space-x-12 ">
+        <img class="transition-transform duration-300 hover:scale-110 active:scale-90 hover:ease-in-out" src="pictures/gallery 1.jpg" alt="">
+        <img class="transition-transform duration-300 hover:scale-110 active:scale-90 hover:ease-in-out"  src="pictures/gallery 3.jpg" alt="">
+        <img class="transition-transform duration-300 hover:scale-110 active:scale-90 hover:ease-in-out"  src="pictures/gallery 1.jpg" alt="">
+       </div>
+        <div class="flex justify-center items-center mb-4 ">
+            <button class="text-white bg-pink-400 p-2.5 rounded-md transition-transform duration-300 hover:scale-110 active:scale-90 ">View More</button>
+        </div>
+    </div>
+
+    <!--Contact Section-->
+    <div id="contact" class="flex flex-row justify-center items-center flex-wrap space-x-60 text-white relative h-56 w-full bg-cover  pt-6 mt-2" style="background-image: url(pictures/contact\ us\ bg.jpg);">
+        <div>
+            <!--hours-->
+        <h2 class="font-semibold text-2xl">Operating Hours</h2>
+        <p>Mon-fr 8am - 3pm</p>
+        <p>Mon-fr 8am - 3pm</p>
+        <p>Mon-fr 8am - 3pm</p>
+        </div>
+
+        <!--icons-->
+        <div>
+            <h2 class="font-semibold text-2xl">Follow Us On</h2>
+            <div class="flex flex-row ">
+               <a href="https://www.facebook.com/"> <img class="w-10 h-10 transition-transform duration-300 hover:scale-110 active:scale-90 hover:ease-in-out" src="pictures/facebook.png" alt=""></a> 
+               <a href="https://www.tiktok.com/"><img class="w-10 h-10 transition-transform duration-300 hover:scale-110 active:scale-90 hover:ease-in-out" src="pictures/tiktok.png" alt=""></a>
+               <a href="https://www.instagram.com/?flo=true"><img class="w-12 h-10 transition-transform duration-300 hover:scale-110 active:scale-90 hover:ease-in-out" src="pictures/ig.png" alt=""></a>
+            </div>
+        </div>
+
+        <!--try our services-->
+        <div class="bg-white p-3">
+            <h2 class="text-pink-500 font-semibold ">Try Our Services</h2>
+            <p class="text-pink-500 mb-2">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Iusto, dicta.</p>
+            <button class="bg-pink-400 text-white p-2 rounded-md transition-transform duration-300 hover:scale-110 active:scale-90">Book an Appointment</button>
+        </div>
+    </div>
+
+    <!--footer-->
+ 
+    <footer class="bg-pink-400 flex justify-center items-center text-white">
+        <p class="pt-2 pb-2">Website by Joseph Marlon Mabeka</p>
+    </footer>
+</body>
+</html>
